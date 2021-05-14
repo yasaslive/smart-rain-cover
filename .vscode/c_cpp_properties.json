@@ -18,10 +18,12 @@
             "includePath": [
                 "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\cores\\arduino",
                 "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\variants\\standard",
+                "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\libraries\\SPI\\src",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src",
                 "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\cores\\arduino",
                 "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\variants\\standard",
-                "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\cores\\arduino",
-                "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\variants\\standard",
+                "C:\\Users\\Yasas\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\libraries\\SPI\\src",
+                "C:\\Program Files (x86)\\Arduino\\libraries\\SD\\src",
                 "c:\\users\\yasas\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\lib\\gcc\\avr\\7.3.0\\include",
                 "c:\\users\\yasas\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\lib\\gcc\\avr\\7.3.0\\include-fixed",
                 "c:\\users\\yasas\\appdata\\local\\arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino5\\avr\\include"
@@ -32,10 +34,6 @@
             "cStandard": "c11",
             "cppStandard": "c++11",
             "defines": [
-                "F_CPU=16000000L",
-                "ARDUINO=10813",
-                "ARDUINO_AVR_UNO",
-                "ARDUINO_ARCH_AVR",
                 "F_CPU=16000000L",
                 "ARDUINO=10813",
                 "ARDUINO_AVR_UNO",
@@ -541,7 +539,8 @@
                 "__cpp_init_captures=201304",
                 "__ATOMIC_ACQ_REL=4",
                 "__ATOMIC_RELEASE=3",
-                "__BUILTIN_AVR_FMUL=1"
+                "__BUILTIN_AVR_FMUL=1",
+                "USBCON"
             ]
         }
     ]

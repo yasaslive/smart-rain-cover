@@ -5,7 +5,7 @@ SolarSensor::SolarSensor(){
 }
 
 float SolarSensor::getVoltageRead(){
-    this->voltageRead = map(analogRead(VOLTAGE_AO), 0, 1023, 0, 30);
+    this->voltageRead = map(analogRead(VOLTAGE_AO), 0, 1023, 0, 25);
     return this->voltageRead;
 }
 

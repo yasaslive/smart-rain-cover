@@ -1,3 +1,4 @@
+#pragma once
 #include <Arduino.h>
 #define RAIN_AO A0
 #define RAIN_DO 2
